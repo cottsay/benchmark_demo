@@ -15,10 +15,9 @@
 // Note that including osrf_testing_tools_cpp is necessary because
 // of the call to guaranteed_malloc. It isn't necessary for the
 // PerformanceTest fixture to be used.
+
 #include <osrf_testing_tools_cpp/memory_tools/is_working.hpp>
 #include <performance_test_fixture/performance_test_fixture.hpp>
-
-#include <unistd.h>
 
 using performance_test_fixture::PerformanceTest;
 
