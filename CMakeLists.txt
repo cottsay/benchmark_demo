@@ -25,6 +25,9 @@ if(BUILD_TESTING)
   # Standalone Google Benchmark
   ament_add_google_benchmark(simple_benchmark test/simple_benchmark.cpp)
 
+  # Standalone Google Benchmark with randomized data
+  ament_add_google_benchmark(random_values test/random_values.cpp)
+
   # With osrf_testing_tools_cpp integration
   add_performance_test(memory_benchmark test/memory_benchmark.cpp)
 endif()
