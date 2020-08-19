@@ -22,6 +22,9 @@ if(BUILD_TESTING)
   find_package(performance_test_fixture REQUIRED)
   ament_lint_auto_find_test_dependencies()
 
+  # Set the thresholds file
+  set(AMENT_CMAKE_GOOGLE_BENCHMARK_OVERLAY test/benchmark_thresholds.json)
+
   # Standalone Google Benchmark
   ament_add_google_benchmark(simple_benchmark test/simple_benchmark.cpp)
 

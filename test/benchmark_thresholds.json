@@ -1,0 +1,17 @@
+{
+  "tests": {
+    "PerformanceTest/memory_test": {
+      "results": {
+        "heap_allocations": {
+          "thresholds": [
+            {
+              "method": "absolute",
+              "minimum": 1,
+              "maximum": 1
+            }
+          ]
+	}
+      }
+    }
+  }
+}

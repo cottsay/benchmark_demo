@@ -21,7 +21,7 @@
 
 using performance_test_fixture::PerformanceTest;
 
-BENCHMARK_F(PerformanceTest, spin_test)(benchmark::State & st)
+BENCHMARK_F(PerformanceTest, memory_test)(benchmark::State & st)
 {
   for (auto _ : st) {
     osrf_testing_tools_cpp::memory_tools::guaranteed_malloc("Hello, World!");
