@@ -18,7 +18,7 @@
           "thresholds": [
             {
               "method": "percentageaverage",
-              "percentage": 100.0
+              "percentage": 0.0
             }
           ]
         }
