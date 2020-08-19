@@ -6,11 +6,22 @@
           "thresholds": [
             {
               "method": "absolute",
-              "minimum": 1,
-              "maximum": 1
+              "maximum": 2.1
             }
           ]
 	}
+      }
+    },
+    "random_values": {
+      "results": {
+        "real_time": {
+          "thresholds": [
+            {
+              "method": "percentageaverage",
+              "percentage": 100.0
+            }
+          ]
+        }
       }
     }
   }
