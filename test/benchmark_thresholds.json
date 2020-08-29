@@ -1,27 +1,25 @@
 {
-  "tests": {
+  "benchmark_demo.memory_benchmark": {
     "PerformanceTest/memory_test": {
-      "results": {
-        "heap_allocations": {
-          "thresholds": [
-            {
-              "method": "absolute",
-              "maximum": 2.1
-            }
-          ]
-	}
+      "heap_allocations": {
+        "thresholds": [
+          {
+            "method": "absolute",
+            "maximum": 2.1
+          }
+        ]
       }
-    },
+    }
+  },
+  "benchmark_demo.random_values": {
     "random_values": {
-      "results": {
-        "real_time": {
-          "thresholds": [
-            {
-              "method": "percentageaverage",
-              "percentage": 0.6
-            }
-          ]
-        }
+      "real_time": {
+        "thresholds": [
+          {
+            "method": "percentageaverage",
+            "percentage": 0.6
+          }
+        ]
       }
     }
   }
